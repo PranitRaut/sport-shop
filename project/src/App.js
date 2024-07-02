@@ -1,15 +1,16 @@
 
 import './App.css';
 import Header from './Header';
-import Product_card from './Product_card';
-import Home from './Home';
+
+import Product_section from './Product_section';
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Product_card></Product_card>
-      <Home></Home>
+      <Product_section></Product_section>
+      
+     
     </div>
   )
 }
