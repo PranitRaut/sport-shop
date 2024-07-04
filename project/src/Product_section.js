@@ -13,7 +13,7 @@ function Product_section(){
      "All Rounder, can be used by Batsman, Bowler, Fielder & Wicket keeper. High Resistant PVC Upper and Outsole Comfortable Eva Sock Liner."];
     let Price = ["100","200","300","400","500","600","700","800"];
     
-    let Photo =["./img/Bat.png"];
+    let Photo =["./img/Bat.png","./project/src/img/badminton.png"];
     let size = title.length;
     return(
         <div>

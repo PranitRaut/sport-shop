@@ -4,7 +4,7 @@ function Product_card(props){
 
     return(
         <>
-        <p>
+        <div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 mt-2">
@@ -20,11 +20,10 @@ function Product_card(props){
                
                 </div>
                     
-
             </div>
 
         </div>
-        </p>
+        </div>
     </>
 
     );
