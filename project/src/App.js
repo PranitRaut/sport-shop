@@ -1,5 +1,5 @@
 
-import About_us from './About_us';
+
 import './App.css';
 import Header from './Header';
 
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header></Header>
       <Product_section></Product_section>
-      <About_us></About_us>
+      
      
     </div>
   )
