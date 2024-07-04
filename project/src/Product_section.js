@@ -26,11 +26,11 @@ function Product_section(){
     return(
         <div>
             <div className="container">
-                <div className="row">
+                <div className="row"> 
                     {[...Array(size)].map((x,i) =>
                     <Product_card title={title[i]} Product_about={Product_about[i]} Price={Price[i]} Photo={Photo[i]}/>
                     )}
-
+                    
                 </div>
             </div>
         </div>

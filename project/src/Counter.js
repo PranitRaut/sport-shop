@@ -15,11 +15,14 @@ function Counter() {
   };
 
   return (
+ 
     <div>
       <p>Count: {count}</p>
-      <button onClick={increment}>+</button>
-      <button onClick={decrement}>-</button>
+      <button class="btn btn-light float-right"onClick={increment}>+</button>
+    
+      <button class="btn btn-light float-right mr-3" onClick={decrement}>-</button>
     </div>
+   
   );
 }
 
