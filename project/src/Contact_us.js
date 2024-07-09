@@ -9,8 +9,8 @@ function Contact_us(){
         <div>
             <div className="container">
                 <div className="row">
-                    <div className="col border border-dark border-2">
-                       <img src={contactbanner} className="img-thumbnail" height="200" width="100%"></img>
+                    <div className="col">
+                       <img src={contactbanner}  height="400" width="100%"></img>
                     </div>
                 </div>
 
