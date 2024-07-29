@@ -45,12 +45,9 @@ function Contact_us(){
                     </div>
                  </div>
 
-
-
-
                 <div className="row">
-                    <div className="col-sm-4 border border-2">
-                        <img src={phone} height="80" width="80" ></img>
+                <div className = "col-sm-4 border border-2">
+                     <img src={phone} height="80" width="80"></img>
                         <h3 class="text-center">Phone_No</h3>
                         <h4 class="text-center">234-9876-5487</h4>
                         <h4 class="text-center">888-0123-5687(Toll-free)</h4>

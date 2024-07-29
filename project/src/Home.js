@@ -1,21 +1,31 @@
 import wallpaper from "./img/wallpaper.jpg";
+
+
 function Home(){
 
     return(
-        <div className="container">
-            <div className="row">
-                <div className="col border border-dark">
-                    <img src={wallpaper} height="400" width="100%"></img>
-                    <h1> Online Shopping For</h1>
-                    <h1>Sports, Fitnesss, And</h1>
-                    <h1>Outdoor Sports</h1>
-                    <h1>Events</h1>
-
-                </div>
-            </div> 
-
+        <div class="container mt-5">
+        <div class="row">
+            <div class="col text-center">
+                
+                 <img src={wallpaper} height="400" width="100%"></img>
+                    </div>
+            </div>
+        <div class= "row">
+            <div class="col-sm-10 p-2">
+                
+                <p class="text-start text-black">"Welcome to our online sports shop! Discover a wide range of high-quality sports gear and equipment to elevate your game. From top brands to exclusive deals, we've got everything you need to stay active and perform at your best. Start shopping now and gear up for success!"
+                </p>
+             
+                <button type="button" class="btn btn-warning">Order Now</button>
+            </div>
         </div>
+    </div>
+  
 
+    
+
+    
 
     );
 
